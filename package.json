@@ -1,0 +1,12 @@
+{
+  "name": "currencies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "process.js",
+  "scripts": {
+    "generate-assets": "node build.js && node filter.js",
+    "build-asset": "node build.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

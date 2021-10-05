@@ -35,5 +35,4 @@ let supportedList = new Set(
 supportedList = [...supportedList].map(elem => JSON.parse(elem));
 console.log(supportedList)
 fs.writeFileSync('./dist/SupportedAssets.json', JSON.stringify(supportedList));
-fs.writeFileSync('./dist/AllAssets.json', JSON.stringify([...fiats, ...cryptos]));
 
